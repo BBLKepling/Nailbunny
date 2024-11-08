@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="FurnitureBase">
+    <defName>BBLK_Nailbunny</defName>
+    <label>nailbunny</label>
+    <description>A bunny nailed to a wall.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Animal/Hare/Hare_east</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawOffsetNorth>(0,0,0.8)</drawOffsetNorth>
+      <drawOffsetSouth>(0,0,-0.5)</drawOffsetSouth>
+      <drawOffsetWest>(-0.7,0,0)</drawOffsetWest>
+      <drawOffsetEast>(0.7,0,0)</drawOffsetEast>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+	  <color>(130,127,106)</color>
+    </graphicData>
+    <costList>
+      <Steel>1</Steel>
+	  <Corpse_Hare>1</Corpse_Hare>
+	</costList>
+    <rotatable>true</rotatable>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<clearBuildingArea>false</clearBuildingArea>
+    <selectable>true</selectable>
+    <passability>Standable</passability>
+    <terrainAffordanceNeeded IsNull="True" />
+    <pathCost>0</pathCost>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <statBases>
+      <Mass>0.5</Mass>	
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToMake>250</WorkToMake>
+      <Flammability>1</Flammability>
+      <Beauty>-50</Beauty>
+      <MeditationFocusStrength>0.01</MeditationFocusStrength>
+    </statBases>
+	<size>(1,1)</size>
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	  <isEdifice>false</isEdifice>
+      <isAttachment>true</isAttachment>
+      <deconstructible>false</deconstructible>
+    </building>
+    <placeWorkers>
+      <li>Placeworker_AttachedToWall</li>
+    </placeWorkers>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+        </focusTypes>
+      </li>
+    </comps>
+  </ThingDef>    
+
+  <ThoughtDef>
+    <defName>BBLK_Nailbunny_Soothe</defName>
+    <workerClass>Nailbunny.ThoughtWorker_Nailbunny_Soothe</workerClass>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>nailbunny soothe</label>
+        <description>The nailbunny speaks to me and reminds me not to kill myself.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
