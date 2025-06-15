@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.5\Assemblies\Nailbunny.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.5\Source\Nailbunny\obj\Debug\Nailbunny.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.5\Source\Nailbunny\obj\Debug\Nailbunny.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.5\Source\Nailbunny\obj\Debug\Nailbunny.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Assemblies\Nailbunny.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Source\Nailbunny\obj\Debug\Nailbunny.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Source\Nailbunny\obj\Debug\Nailbunny.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Source\Nailbunny\obj\Debug\Nailbunny.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Assemblies\Nailbunny.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Nailbunny\1.6\Source\Nailbunny\obj\Debug\Nailbunny.pdb
